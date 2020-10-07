@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 60%;
+  margin: 0 auto;
+  background: brown;
+}
+
+#logo {
+  vertical-align: middle;
+  height: 90px;
+}
+
+#title {
+  color: white;
+  display: inline-block;
+  height: 90px;
+  line-height: 90px;
+}
+
+#header-bottom {
+  padding: 10px 0px;
+}
+#count {
+  margin-top: 10px;
+  color: white;
+}
+#unread-count{
+  display: inline-block;
+  background: orange;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#email-list {
+  list-style: none;
+  padding: 20px 0px;
+}
+
+.email {
+  padding: 2px;
+  border: 1px solid black;
+  background: lightgrey;
+}
+.read {
+  background: white;
+}
+.email-body {
+  color: grey;
+  display: inline-block;
+}
+.email-text {
+  display: inline;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+#footer-title {
+  display: inline-block;
+}
